@@ -1,0 +1,18 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    margin: 0 auto;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+@import "../font/fonts.css";
+@import "header";
+@import "intro";
+@import "products";
+@import "service";
+@import "works";
+@import "footer";

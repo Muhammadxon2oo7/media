@@ -1,0 +1,209 @@
+.service{
+    height: auto;
+    width: 100%;
+    // margin-bottom: 200px;
+    .container{
+        height: 577px;
+        background-color: #2C343E;
+        border-radius: 10px;
+        padding-top: 100px;
+        .service_title{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 86px;
+            h2{
+                width: 100%;
+                text-align: center;
+                font-family: 'Fraunces';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 40px;
+                line-height: 48px;
+                text-align: center;
+                color: #FEFCF7;
+                
+            }
+            p{
+                width: 540px;
+                text-align: center;
+                font-family: 'Barlow';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                text-align: center;
+                color: #FEFCF7;
+            }
+        }
+        .service_cards{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            // background-color: rgb(185, 26, 213);
+            .service_cards_card{
+                width: 350px;
+                height: 382px;
+                background: #0E8784;
+                border-radius: 8px;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                margin-bottom: 24px;
+                h2{
+                    font-family: 'Fraunces';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 24px;
+                    text-align: center;
+                    color: #FEFCF7;
+                }
+                p{
+                    width: 80%;
+                    margin: 0 auto;
+                    font-family: 'Barlow';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    text-align: center;
+                    color: #FEFCF7;
+                    
+                }
+                // rgba(14, 135, 133, 0.37)
+                // &:hover{
+                //     transition: .6s;
+                //     background-color:#f0f0f3;
+                //     border-radius: 12px;
+                //     box-shadow: 10px 10px 21px #d3d3d6,
+                //                 -10px -10px 21px #ffff;
+                //}
+            }
+        }
+    }
+}
+@media only screen and (max-width:1667px){
+    .service{
+        margin-bottom:540px;
+    }
+}
+@media only screen and (max-width:778px){
+    .service{
+        .container{
+            .service_cards{
+                .service_cards_card{
+                    width: 340px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:769px){
+    .service{
+        .container{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            .service_cards{
+                width: 95%;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                .service_cards_card{
+                    width: 100%;
+                    height: 193px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-bottom: 47px;
+                    align-items: center;
+                    // text-align: center;
+                    img{
+                        width: 10%;
+                        height: 193px;
+                        margin-right: 55px;
+                    }
+                    .service_card_text{
+                        // height: 100px;
+                        width: 50%;
+                        h2{
+                            height: 32px;
+                            width:100%;
+                            font-family: 'Fraunces 9pt';
+                            font-style: normal;
+                            font-weight: 900;
+                            font-size: 24px;
+                            color: #FEFCF7;
+                            
+                        }
+                        p{
+                            width:100%;
+                            font-family: 'Barlow';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 25px;
+                            /* or 167% */
+                            
+                            
+                            color: #FEFCF7;
+                            
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:376px){
+    .service{
+        margin-bottom: 800px;
+        .container{
+            .service_cards{
+                .service_cards_card{
+                    height:250px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 282px;
+                    margin-bottom: 24px;
+                    img{
+                        margin-left: 20%;
+                        width:20%;
+                        height:20%;
+                    }
+                    .service_card_text{
+                        height: 130px;
+                        width: 282px;
+                        border-radius: 0px;
+                            h2{
+                                font-family: 'Fraunces';
+                                font-style: normal;
+                                font-weight: 900;
+                                font-size: 24px;
+                                line-height: 32px;
+                                text-align: center;
+                                color: #333D4B;
+                                
+                                
+                            }
+                            p{
+                                width: 212px;
+                                height: 78px;
+                                font-family: 'Barlow';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 26px;
+                                text-align: center;
+                                color: #333D4B;
+                            }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
